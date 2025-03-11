@@ -1,6 +1,6 @@
-# Misskey 邀请码 Telegram 机器人
+# misskey-bot
 
-这是一个 Telegram 机器人，用于为用户提供 Misskey 实例的邀请码。
+这是一个 Telegram 机器人，用于为用户提供 Misskey 实例的邀请码。示例： https://t.me/urweibo_bot
 
 ## 功能
 
@@ -67,7 +67,7 @@
 | INVITE_CODE_EXPIRY_DAYS | 邀请码有效期（天）                                            | 7                        |
 | MAX_INVITES_PER_WEEK    | 每周最大邀请码数量                                            | 1                        |
 | CAPTCHA_EXPIRY_SECONDS  | 验证码有效期（秒）                                            | 300                      |
-| ADMIN_IDS               | 管理员 ID，逗号分隔的 Telegram 用户 ID 列表                   | 从 https://t.me/urweibo_bot 发送 /info 获取                       |
+| ADMIN_IDS               | 管理员 ID，逗号分隔的 Telegram 用户 ID 列表                   | 在 https://t.me/urweibo_bot 发送 /info 获取                       |
 | STATS_RETENTION_DAYS    | 统计数据保留天数                                              | 30                       |
 | INSTANCE_NAME           | Misskey 实例名称，用于显示在机器人消息中                       | Misskey                  |
 
@@ -120,9 +120,6 @@
 
 欢迎提交 Issue 和 Pull Request！
 
-## 作者
-
-[harveyTon]
 
 ## 鸣谢
 
