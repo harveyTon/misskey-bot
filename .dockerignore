@@ -1,0 +1,37 @@
+# Git
+.git
+.gitignore
+
+# 环境变量
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+venv/
+
+# 日志
+*.log
+
+# 其他
+.DS_Store
+.idea/
+.vscode/ 
