@@ -1,9 +1,7 @@
 # Git
 .git
 .gitignore
-
-# 环境变量
-.env
+.gitattributes
 
 # Python
 __pycache__/
@@ -26,12 +24,27 @@ var/
 *.egg-info/
 .installed.cfg
 *.egg
-venv/
 
-# 日志
+# 虚拟环境
+venv/
+.venv/
+ENV/
+
+# 日志和数据
+logs/*
 *.log
 
-# 其他
-.DS_Store
+# 环境变量
+.env
+
+# IDE
 .idea/
-.vscode/ 
+.vscode/
+*.swp
+*.swo
+
+# Docker
+.docker/
+
+# 其他
+.DS_Store 

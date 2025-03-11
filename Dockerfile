@@ -6,6 +6,9 @@ WORKDIR /app
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
+# 创建日志目录
+RUN mkdir -p /app/logs && chmod 777 /app/logs
+
 # 复制应用代码
 COPY . .
 

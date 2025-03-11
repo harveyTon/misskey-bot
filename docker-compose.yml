@@ -6,6 +6,8 @@ services:
     restart: always
     env_file:
       - .env
+    volumes:
+      - ./logs:/app/logs
     depends_on:
       - redis
     networks:
